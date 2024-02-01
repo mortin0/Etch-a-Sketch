@@ -1,0 +1,53 @@
+.row {
+    display: flex;
+    flex: 0 1 auto;
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+/* .content:hover {
+    border-color: gray;
+    background-color: black;
+    transition: border-color 0.01s;
+    transition: background-color 0.01s;
+} */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    aspect-ratio: 1;
+    flex: 5 1 auto;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: gray;
+
+    /* transition: border-color 8s;
+    transition: background-color 8s; */
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button {
+    margin: 10px;
+}
+
+.hovered {
+    background-color: black;
+}
